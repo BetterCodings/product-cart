@@ -1,0 +1,38 @@
+@charset "UTF-8";
+div, input, textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  line-height: 1.15; /*기본 행간 높이*/
+}
+
+.search-container {
+  margin: 25px 0px 25px 0px;
+}
+
+.cart-container {
+  width: 100%;
+  height: 450px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #eee;
+}
+.cart-container h5 {
+  padding: 30px;
+  font-weight: bold;
+}
+
+.cart {
+  margin: 20px;
+  height: 70%;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
