@@ -35,4 +35,15 @@ html {
   color: white;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  margin: 5px;
+}
+
+.center {
+  text-align: center;
+}
+.center h5 {
+  padding: 10px 0px;
 }/*# sourceMappingURL=main.css.map */
