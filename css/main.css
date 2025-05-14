@@ -22,10 +22,6 @@ html {
   margin-bottom: 30px;
   background-color: #eee;
 }
-.cart-container h5 {
-  padding: 30px;
-  font-weight: bold;
-}
 
 .cart {
   margin: 20px;
@@ -37,6 +33,11 @@ html {
   align-items: center;
 }
 
+.cart-font {
+  padding: 30px;
+  font-weight: bold;
+}
+
 .card {
   margin: 5px;
 }
@@ -46,4 +47,44 @@ html {
 }
 .center h5 {
   padding: 10px 0px;
+}
+
+.modal-style {
+  padding: 30px;
+}
+.modal-style h5 {
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+.modal-style input {
+  border-radius: 5px;
+  border: grey solid 1px;
+  padding: 5px;
+  width: 50%;
+}
+
+.hide {
+  display: none;
+}
+
+.canvas-container {
+  position: absolute;
+  top: 0px;
+  left: 37%;
+}
+.canvas-container button {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+}
+
+#canvas {
+  background-color: #eee;
+  border: 1px solid black;
+}
+
+#btn-del {
+  position: absolute;
+  top: 10px;
+  left: 75%;
 }/*# sourceMappingURL=main.css.map */

@@ -10,11 +10,6 @@
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #eee;
-
-    h5{
-        padding: 30px;
-        font-weight: bold;
-    }
 }
 
 .cart{
@@ -27,6 +22,11 @@
     align-items: center;
 }
 
+.cart-font{
+    padding: 30px;
+    font-weight: bold;
+}
+
 .card{
     margin: 5px;
 }
@@ -35,4 +35,46 @@
     h5{
         padding: 10px 0px;
     }
+}
+
+.modal-style{
+    padding: 30px;
+
+    h5{
+        font-weight: bold;
+        margin: 10px 0px 10px 0px;
+    }
+    input{
+        border-radius: 5px;
+        border: grey solid 1px;
+        padding: 5px;
+        width: 50%;
+    }
+}
+
+.hide{
+    display: none;
+}
+
+.canvas-container{
+    position: absolute;
+    top: 0px;
+    left: 37%;
+
+    button{
+        position: absolute;
+        top: 90%;
+        left: 85%;
+    }
+}
+
+#canvas{
+    background-color: #eee;
+    border: 1px solid black;
+}
+
+#btn-del{
+    position: absolute;
+    top: 10px;
+    left: 75%;
 }
